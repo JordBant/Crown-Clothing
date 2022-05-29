@@ -1,0 +1,25 @@
+@import '../../../../App-Styles/mixins.scss';
+
+.list-wrapper{
+    @include size(33%, auto, 0, 12px);
+    @include flex(space-between, center, NULL, NULL, NULL);
+
+    background: peru;
+
+
+    .nav-list{
+        @include flex(space-evenly, center, NULL, NULL, NULL);
+        @include size(70%, auto, 0, 12px);
+
+        background: pink;
+
+        .nav-link-list{
+            list-style: none;
+            border: 2px solid cyan; 
+        }
+    }
+    .cart{
+        @include size(50px, 50px, 0, 0);
+        background: red;
+    }
+}
