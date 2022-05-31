@@ -9,7 +9,7 @@ const NavBar = () => {
       <div className = 'nav-bar-div'>
         <nav className='nav-bar'>
 
-          <Link className="nav-icon" to='/'>
+          <Link className="nav-logo-container" to='/'>
             <CrownLogo className= 'logo'/>
           </Link>
 

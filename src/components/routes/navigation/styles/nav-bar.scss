@@ -2,6 +2,7 @@
 
 .nav-bar-div{
     @include size(100%, 100px, 0, 0);
+    border: 2px solid brown;
 
     .nav-bar{
         @include flex(space-between, center, NULL, NULL, NULL);
@@ -9,12 +10,21 @@
     
         width: 100%;
         height: 100px;
+        border: 2px solid brown;
+
+        // .logo{
+        //     border: 2px solid red;
+        // }
+
     
-        .nav-icon{
-            border: 2px solid brown;
-            height: 100%;
-            width: 70px;
-            padding: 25px;
+        .nav-logo-container{
+            height:auto;
+            width: auto;
+            border: 2px solid green;
+
+            .logo{
+               @include size(59.9px, 59.9px, 0, 0);
+            }
         }
     }
 }

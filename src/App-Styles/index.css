@@ -3,4 +3,9 @@
           box-sizing: border-box;
   margin: 0;
 }
-/*# sourceMappingURL=App.css.map */
+
+a {
+  text-decoration: none;
+  color: black;
+}
+/*# sourceMappingURL=index.css.map */
